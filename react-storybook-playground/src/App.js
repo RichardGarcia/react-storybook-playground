@@ -6,9 +6,10 @@ import './App.css'
 import 'typeface-roboto'
 
 // material-ui
-import Icons from './components/icons'
-import Icons2 from './components/icons2'
-import Typography from './components/typography'
+import Icons from './components/Icons'
+import Icons2 from './components/Icons2'
+import Typography  from './components/Typography'
+import ButtonAppBar from './components/ButtonAppBar'
 
 
 class App extends Component {
@@ -27,16 +28,19 @@ class App extends Component {
         </p>
 
 
-        <p>Icons</p>
-        <Icons />
+        {/* <p>Icons</p>
+          <Icons />
 
         <p>Icons 2</p>
-        <Icons2 />
+          <Icons2 />
 
         <p>Typography</p>
-        <Typography />
+          <Typography /> */}
 
-
+        <p>App Bar</p>
+          <ButtonAppBar appBarTitle={'App Bar Title'} appBarPosition={'static'} />
+          <p>Another App Bar</p>
+          <ButtonAppBar appBarTitle={'This is another App Bar Title'} appBarPosition={'static'}/>
       </div>
     )
   }
