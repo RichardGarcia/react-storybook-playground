@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
+// material-ui
+// import Demo from './demo';
+import Icons from './components/icons'
+import Icons2 from './components/icons2'
+
 class App extends Component {
   render () {
     // App title props
@@ -16,6 +21,13 @@ class App extends Component {
         <p className='App-intro'>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+
+
+        <p>Icons</p>
+        <Icons />
+
+        <p>Icons 2</p>
+        <Icons2 />
       </div>
     )
   }
