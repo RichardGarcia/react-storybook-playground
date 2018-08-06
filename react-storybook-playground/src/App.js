@@ -5,11 +5,15 @@ import './App.css'
 // import fonts
 import 'typeface-roboto'
 
-// material-ui
+// material-ui - Atoms
 import Icons from './components/Icons'
 import Icons2 from './components/Icons2'
 import Typography  from './components/Typography'
 import ButtonAppBar from './components/ButtonAppBar'
+
+// Molecules
+import M001 from './components/Molecule01'
+
 
 
 class App extends Component {
@@ -37,10 +41,15 @@ class App extends Component {
         <p>Typography</p>
           <Typography /> */}
 
-        <p>App Bar</p>
-          <ButtonAppBar appBarTitle={'App Bar Title'} appBarPosition={'static'} />
+        {/* <p>App Bar</p>
+          <ButtonAppBar appBarTitle={'App Bar Title'} appBarPosition={'static'} appBarColor={'primary'}/>
           <p>Another App Bar</p>
-          <ButtonAppBar appBarTitle={'This is another App Bar Title'} appBarPosition={'static'}/>
+          <ButtonAppBar appBarTitle={'This is another App Bar Title'} appBarPosition={'static'} appBarColor={'secondary'} /> */}
+
+        <M001 />
+
+
+
       </div>
     )
   }

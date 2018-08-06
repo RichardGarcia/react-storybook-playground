@@ -25,7 +25,7 @@ function ButtonAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position={props.appBarPosition}>
+      <AppBar position={props.appBarPosition} color={props.appBarColor}>
         <Toolbar>
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />

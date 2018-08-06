@@ -32,8 +32,14 @@ storiesOf('React Storybook Playground App', module)
 
   storiesOf('AppBars', module)
   .add('App Bar 01', () => (
-    <ButtonAppBar appBarTitle={'App Bar Title'} appBarPosition={'static'} />
+    <ButtonAppBar appBarTitle={'App Bar Title'} appBarPosition={'static'} appBarColor={'primary'} />
   ))
   .add('App Bar 02', () => (
-    <ButtonAppBar appBarTitle={'This is another App Bar Title'} appBarPosition={'static'}/>
+    <ButtonAppBar appBarTitle={'This is another App Bar Title'} appBarPosition={'static'} appBarColor={'secondary'}/>
   ))
+
+  storiesOf('Molecules', module)
+  .add('Molecule01', () => (
+    <ButtonAppBar appBarTitle={'App Bar Title - Molecule 01'} appBarPosition={'static'} appBarColor={'secondary'} />
+  ))
+  
