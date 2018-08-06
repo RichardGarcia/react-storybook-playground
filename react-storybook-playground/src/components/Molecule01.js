@@ -22,7 +22,6 @@ const styles = {
 function M001(props) {
   return (
     <div>
-      <p>Molecule 01</p>
       <ButtonAppBar appBarTitle={'Molecule 01 - App Bar Title'} appBarPosition={'static'} appBarColor={'secondary'}/>
       <Icons />
     </div>

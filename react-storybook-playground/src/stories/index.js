@@ -9,8 +9,12 @@ import { Button, Welcome } from '@storybook/react/demo'
 // import your react app here
 import App from '../App'
 
-// import MUI
+// import MUI - Atoms
 import ButtonAppBar from './../components/ButtonAppBar'
+
+// Molecules
+import M001 from './../components/Molecule01'
+
 
 storiesOf('Welcome', module).add('to Storybook', () => (
   <Welcome showApp={linkTo('Button')} />
@@ -40,6 +44,6 @@ storiesOf('React Storybook Playground App', module)
 
   storiesOf('Molecules', module)
   .add('Molecule01', () => (
-    <ButtonAppBar appBarTitle={'App Bar Title - Molecule 01'} appBarPosition={'static'} appBarColor={'secondary'} />
+    <M001 />
   ))
   
