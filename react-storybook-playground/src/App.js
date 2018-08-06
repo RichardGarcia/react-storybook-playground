@@ -2,10 +2,14 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
+// import fonts
+import 'typeface-roboto'
+
 // material-ui
-// import Demo from './demo';
 import Icons from './components/icons'
 import Icons2 from './components/icons2'
+import Typography from './components/typography'
+
 
 class App extends Component {
   render () {
@@ -28,6 +32,11 @@ class App extends Component {
 
         <p>Icons 2</p>
         <Icons2 />
+
+        <p>Typography</p>
+        <Typography />
+
+
       </div>
     )
   }
